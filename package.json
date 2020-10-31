@@ -1,0 +1,23 @@
+{
+  "name": "elastic-loader",
+  "version": "1.0.0",
+  "description": "Custom Loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awedis/elastic-loader.git"
+  },
+  "keywords": [
+    "react",
+    "loader"
+  ],
+  "author": "Awedis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awedis/elastic-loader/issues"
+  },
+  "homepage": "https://github.com/awedis/elastic-loader#readme"
+}
