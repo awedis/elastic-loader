@@ -1,9 +1,5 @@
-import React from 'react';
+import LoadingDots from './components/loading-dots/loading-dots';
 
-const TryComponent = () => {
-    return (
-        <div>This is try module</div>
-    )
+export {
+    LoadingDots
 }
-
-export default TryComponent;
