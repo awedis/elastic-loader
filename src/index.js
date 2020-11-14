@@ -1,5 +1,20 @@
-import LoadingDots from './components/loading-dots/loading-dots';
+import React from "react";
+import { Loaders } from './components';
 
-export {
-    LoadingDots
+function loaderType(type) {
+    if (Loaders[type]) {
+        return Loaders[type];
+    } else {
+        return Loaders.LoadingDots
+    }
 }
+
+const ElasticLoader = ({ type }) => {
+    return (
+        <>
+            {loaderType(type)}
+        </>
+    )
+}
+
+export default ElasticLoader;
