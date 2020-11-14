@@ -21,7 +21,7 @@ const ElasticLoader = ({ type }) => {
 export default ElasticLoader;
 
 ElasticLoader.propTypes = {
-    type: PropTypes.oneOf([...componentNames])
+    type: PropTypes.oneOf(['LoadingDots', 'Oval'])
 };
 
 ElasticLoader.defaultProps = {
