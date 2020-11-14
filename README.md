@@ -5,6 +5,13 @@
 
 [![npm version](https://badge.fury.io/js/elastic-loader.svg)](//npmjs.com/package/elastic-loader)
 
+#### Installation
+
+###### NPM
+```
+npm install elastic-loader
+```
+
 #### Usage
 
 ```
@@ -16,6 +23,6 @@
 #### Props Available
 *elastic-loader accepts the following props. Instructions on how to use them is shown below.*
 
-| name | types | Detail |
+| Name | Types | Detail |
 | ------------- |-------------|-------------|
-| type | String | Type of loader you want to be displayed |
+| type | string | type of loader you want to be displayed |
