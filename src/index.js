@@ -1,5 +1,6 @@
 import React from "react";
 import { Loaders } from './components';
+import PropTypes from "prop-types";
 
 function loaderType(type) {
     if (Loaders[type]) {
@@ -18,3 +19,11 @@ const ElasticLoader = ({ type }) => {
 }
 
 export default ElasticLoader;
+
+ElasticLoader.propTypes = {
+    type: PropTypes.oneOf([...componentNames])
+};
+
+ElasticLoader.defaultProps = {
+    type: "LoadingDots"
+};
