@@ -1,10 +1,13 @@
 import React from 'react';
-import LoadingDots from './loading-dots';
+import Circle from './circle';
 import Oval from './oval';
 
-const Loaders = {
-    "LoadingDots": <LoadingDots />,
-    "Oval": <Oval />
+const Loaders = (type, props) => {
+    let ourLoaders = {
+        "Circle": <Circle custom={props} />,
+        "Oval": <Oval custom={props} />
+    }
+    return ourLoaders[type];
 };
 
 export {

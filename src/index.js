@@ -2,18 +2,10 @@ import React from "react";
 import { Loaders } from './components';
 import PropTypes from "prop-types";
 
-function loaderType(type) {
-    if (Loaders[type]) {
-        return Loaders[type];
-    } else {
-        return Loaders.LoadingDots
-    }
-}
-
-const ElasticLoader = ({ type }) => {
+const ElasticLoader = ({ type, custom }) => {
     return (
         <>
-            {loaderType(type)}
+            {Loaders(type, custom)}
         </>
     )
 }
@@ -21,9 +13,9 @@ const ElasticLoader = ({ type }) => {
 export default ElasticLoader;
 
 ElasticLoader.propTypes = {
-    type: PropTypes.oneOf(['LoadingDots', 'Oval'])
+    type: PropTypes.oneOf(['Circle', 'Oval'])
 };
 
 ElasticLoader.defaultProps = {
-    type: "LoadingDots"
+    type: "Circle"
 };
