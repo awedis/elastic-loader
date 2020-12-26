@@ -15,14 +15,23 @@ npm install elastic-loader
 #### Usage
 
 ```
-<ElasticLoader
-  type={"ThreeDots"}
->
+<ElasticLoader 
+  type='Oval'
+  custom={{
+    color: '#00a1ff',
+    width: '40',
+    height: '40'
+  }}
+/>
 ```
+
+#### Types
+  - Cirlce
+  - TwoDots
 
 #### Props Available
 *elastic-loader accepts the following props. Instructions on how to use them is shown below.*
 
-| Name | Types | Detail |
+| Name | Type | Custom |
 | ------------- |-------------|-------------|
-| type | string | type of loader you want to be displayed |
+| type | string | object |
