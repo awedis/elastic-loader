@@ -26,7 +26,7 @@ npm install elastic-loader
 ```
 
 #### Types
-  - Cirlce
+  - Oval
   - TwoDots
 
 #### Props Available
