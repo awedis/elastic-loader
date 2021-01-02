@@ -14,6 +14,7 @@ npm install elastic-loader
 
 #### Usage
 
+###### [TYPE] Oval
 ```
 <ElasticLoader 
   type='Oval'
@@ -25,6 +26,16 @@ npm install elastic-loader
 />
 ```
 
+###### [TYPE] TwoDots
+```
+<ElasticLoader 
+  type='TwoDots'
+  custom={{
+    color: '#00a1ff'
+  }}
+/>
+```
+
 #### Types
   - Oval
   - TwoDots
@@ -32,6 +43,6 @@ npm install elastic-loader
 #### Props Available
 *elastic-loader accepts the following props. Instructions on how to use them is shown below.*
 
-| Name | Type | Custom |
-| ------------- |-------------|-------------|
-| type | string | object |
+| Type | Custom |
+| ---- | ------ |
+| String | Object |
