@@ -36,9 +36,20 @@ npm install elastic-loader
 />
 ```
 
+###### [TYPE] Drop
+```
+<ElasticLoader 
+  type='Drop'
+  custom={{
+    color: '#00a1ff'
+  }}
+/>
+```
+
 #### Types
   - Oval
   - TwoDots
+  - Drop
 
 #### Props Available
 *elastic-loader accepts the following props. Instructions on how to use them is shown below.*

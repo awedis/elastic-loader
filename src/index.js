@@ -13,7 +13,11 @@ const ElasticLoader = ({ type, custom }) => {
 export default ElasticLoader;
 
 ElasticLoader.propTypes = {
-    type: PropTypes.oneOf(['Circle', 'Oval'])
+    type: PropTypes.oneOf([
+        'Circle',
+        'Oval',
+        'Drop'
+    ])
 };
 
 ElasticLoader.defaultProps = {
